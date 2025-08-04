@@ -45,9 +45,9 @@ const Faculties = () => {
       programs: ['Master\'s', 'Ph.D.']
     },
     {
-      name: 'Religion and Science',
-      icon: 'fas fa-atom',
-      description: 'Explore the intersection of faith and scientific understanding.',
+      name: 'Chaplaincy Studies',
+      icon: 'fas fa-heart',
+      description: ' Dive into the richnesss of pastoral care.',
       programs: ['Ph.D.']
     }
   ];

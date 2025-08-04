@@ -19,7 +19,7 @@ const Navbar = () => {
               }}
             />
             <h1 className="text-slate-800 text-xl font-bold hidden sm:block">
-              International Theological Institute
+              The International Theological Institute
             </h1>
           </div>
           

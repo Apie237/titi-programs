@@ -14,6 +14,11 @@ const Hero = () => {
   return (
     <section className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-20 px-6">
       <div className="max-w-4xl mx-auto text-center">
+        {/* Motto */}
+        <div className="text-lg md:text-xl font-medium mb-4 text-yellow-300 uppercase tracking-wider">
+          Truth for All
+        </div>
+        
         {/* Main Heading */}
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
           Transform Your Ministry Through 

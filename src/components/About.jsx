@@ -4,18 +4,18 @@ const About = () => {
   const features = [
     {
       icon: '📚',
-      title: 'Tuition Free Education',
-      description: 'Quality theological education without tuition fees. Only pay registration and manual costs.'
-    },
-    {
-      icon: '🌍',
-      title: 'Flexible Learning',
-      description: 'Choose between correspondence studies or distance learning to fit your schedule.'
+      title: 'Affordable Courses',
+      description: 'Quality affordable theological education'
     },
     {
       icon: '⭐',
       title: 'Accelerated Programs',
       description: 'Complete your degree in weeks or months with our special study arrangements.'
+    },
+    {
+      icon: '🌍',
+      title: 'Flexible Learning',
+      description: 'Choose between correspondence studies or distance learning to fit your schedule.'
     },
     {
       icon: '✈️',
@@ -68,8 +68,8 @@ const About = () => {
             </h3>
             <div className="text-lg text-gray-700 space-y-4">
               <p>
-                A correspondence and distance learning Biblical and theological studies institution 
-                committed to providing quality education without financial barriers.
+                An on-campus, correspondence and distance learning Biblical and theological education, 
+                committed to providing quality studies.
               </p>
               <p>
                 We offer comprehensive programs across 8 different faculties, from Certificate 
