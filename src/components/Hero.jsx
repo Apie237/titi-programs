@@ -27,7 +27,7 @@ const Hero = () => {
 
         {/* Subtitle */}
         <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-          Tuition-free correspondence and distance learning programs in Biblical and Theological Studies
+          Affordable Theological training and distance learning programs in Biblical and Theological Studies
         </p>
 
         {/* CTA Buttons */}
@@ -49,8 +49,8 @@ const Hero = () => {
         {/* Key Features */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           <div>
-            <div className="text-2xl font-bold">100%</div>
-            <div className="text-sm opacity-80">Tuition Free</div>
+            <div className="text-2xl font-bold">Fully</div>
+            <div className="text-sm opacity-80">Affordable</div>
           </div>
           <div>
             <div className="text-2xl font-bold">8</div>
