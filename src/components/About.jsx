@@ -1,24 +1,25 @@
 import React from 'react';
+import { assets } from '../assets/assets';
 
 const About = () => {
   const features = [
     {
-      icon: '📚',
+      icon: assets.books,
       title: 'Affordable Courses',
       description: 'Quality affordable theological education'
     },
     {
-      icon: '⭐',
+      icon: assets.rocket,
       title: 'Accelerated Programs',
       description: 'Complete your degree in weeks or months with our special study arrangements.'
     },
     {
-      icon: '🌍',
+      icon: assets.rocket,
       title: 'Flexible Learning',
       description: 'Choose between correspondence studies or distance learning to fit your schedule.'
     },
     {
-      icon: '✈️',
+      icon: assets.airplane,
       title: 'Travel Opportunities',
       description: 'Study abroad options and travel assistance for education and work opportunities.'
     }
@@ -43,8 +44,12 @@ const About = () => {
               className="bg-gray-50 p-8 rounded-2xl text-center hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group"
             >
               {/* Icon */}
-              <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">
-                {feature.icon}
+              <div className="mb-6 flex justify-center">
+                <img 
+                  src={feature.icon} 
+                  alt={feature.title}
+                  className="w-16 h-16 object-contain group-hover:scale-110 transition-transform duration-300"
+                />
               </div>
 
               {/* Title */}
