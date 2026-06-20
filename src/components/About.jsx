@@ -13,19 +13,19 @@ const About = () => {
       icon: assets.rocket,
       title: "Accelerated Programs",
       description:
-        "Fast-track study options allow qualified students to complete programs within shorter timeframes.",
+        "Complete your degree in less than the standard time depending on your qualifications and special arrangements",
     },
     {
       icon: assets.laptop,
       title: "Flexible Learning",
       description:
-        "Study on-campus, through correspondence, or online from anywhere in the world at your own pace.",
+        "Chose either on-site or distance learning or correspance to fit your schedule.",
     },
     {
       icon: assets.airplane,
       title: "International Opportunities",
       description:
-        "Explore study abroad opportunities, ministry exposure, and global academic partnerships.",
+        "Study abroad options and travel assistance for education and ministry service opportunities",
     },
   ];
 
