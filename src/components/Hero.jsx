@@ -84,26 +84,6 @@ const Hero = () => {
               View Programs
             </button>
           </div>
-
-          {/* Key Features */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            <div className="backdrop-blur-sm bg-white/10 p-4 rounded-lg">
-              <div className="text-2xl font-bold">Fully</div>
-              <div className="text-sm opacity-80">Affordable</div>
-            </div>
-            <div className="backdrop-blur-sm bg-white/10 p-4 rounded-lg">
-              <div className="text-2xl font-bold">8</div>
-              <div className="text-sm opacity-80">Faculties</div>
-            </div>
-            <div className="backdrop-blur-sm bg-white/10 p-4 rounded-lg">
-              <div className="text-2xl font-bold">8</div>
-              <div className="text-sm opacity-80">Programs</div>
-            </div>
-            <div className="backdrop-blur-sm bg-white/10 p-4 rounded-lg">
-              <div className="text-2xl font-bold">Fast</div>
-              <div className="text-sm opacity-80">Track Available</div>
-            </div>
-          </div>
         </div>
       </div>
 

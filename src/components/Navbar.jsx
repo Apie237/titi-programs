@@ -45,7 +45,7 @@ const Navbar = () => {
               href="#programs" 
               className="text-slate-700 font-medium px-4 py-2 rounded-full transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-600 hover:text-white hover:-translate-y-1 hover:shadow-lg"
             >
-              Programs
+              Curriculum
             </a>
             <a 
               href="#pricing" 

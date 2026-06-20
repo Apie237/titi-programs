@@ -3,37 +3,96 @@ import React from 'react';
 const Faculties = () => {
   // Consolidating to the 5 primary faculties
   const faculties = [
-    {
-      name: 'Christian Ministry & Leadership',
-      icon: 'fas fa-cross',
-      description: 'Develop practical ministry skills, pastoral care, and leadership strategies for effective Christian service and church administration.',
-      programs: ['Certificate', 'Diploma', 'Advanced Diploma', 'Bachelor\'s', 'Master\'s', 'Ph.D.']
-    },
-    {
-      name: 'Biblical & Theological Studies',
-      icon: 'fas fa-book-open',
-      description: 'Engage in a deep study of Scripture, historical context, systemic theology, and religious doctrine to ground your faith intellectually.',
-      programs: ['Certificate', 'Diploma', 'Advanced Diploma', 'Bachelor\'s', 'Master\'s', 'Ph.D.']
-    },
-    {
-      name: 'Christian Missions & Evangelism',
-      icon: 'fas fa-globe',
-      description: 'Prepare for cross-cultural intercultural ministry, church planting, and strategic global evangelization efforts.',
-      programs: ['Certificate', 'Diploma', 'Advanced Diploma', 'Bachelor\'s', 'Master\'s']
-    },
-    {
-      name: 'Christian Education & Discipleship',
-      icon: 'fas fa-chalkboard-teacher',
-      description: 'Learn foundational teaching methodologies to effectively disciple youth, adults, and educational communities in Christian principles.',
-      programs: ['Bachelor\'s', 'Master\'s', 'Ph.D.']
-    },
-    {
-      name: 'Apologetics & Philosophy of Religion',
-      icon: 'fas fa-shield-alt',
-      description: 'Equip yourself to defend the Christian faith through reasoned historical, cultural, and intellectual arguments.',
-      programs: ['Master\'s', 'Ph.D.']
-    }
-  ];
+  {
+    name: "Faculty of Biblical Studies",
+    icon: "fas fa-book-bible",
+    description:
+      "Dedicated to rigorous engagement with Scripture, equipping students with exegetical competence, theological clarity, and faithful interpretive skills for preaching, teaching, research, and advanced scholarship.",
+    disciplines: [
+      "Biblical Studies",
+      "Old Testament Studies",
+      "New Testament Studies",
+      "Biblical Languages"
+    ],
+    programs: [
+      "Bachelor's",
+      "Master's",
+      "Ph.D."
+    ]
+  },
+
+  {
+    name: "Faculty of Theological Studies",
+    icon: "fas fa-scroll",
+    description:
+      "Focused on the systematic, historical, and philosophical exploration of Christian doctrine, preparing students for leadership, teaching, theological reflection, and advanced research.",
+    disciplines: [
+      "Systematic Theology",
+      "Historical Theology",
+      "Philosophical Theology"
+    ],
+    programs: [
+      "Bachelor's",
+      "Master's",
+      "Ph.D."
+    ]
+  },
+
+  {
+    name: "Faculty of Christian Ministry",
+    icon: "fas fa-church",
+    description:
+      "Equips students for Spirit-led leadership in churches and Christian organizations through practical ministry training, pastoral care, counseling, discipleship, and church administration.",
+    disciplines: [
+      "Pastoral Ministry",
+      "Practical Theology",
+      "Christian Counseling",
+      "Leadership & Church Administration"
+    ],
+    programs: [
+      "Certificate",
+      "Associate Degree",
+      "Bachelor's",
+      "Master's",
+      "Ph.D."
+    ]
+  },
+
+  {
+    name: "Faculty of Missions & Intercultural Studies",
+    icon: "fas fa-globe-africa",
+    description:
+      "Prepares students for effective gospel ministry across cultures through missions training, church planting, intercultural communication, contextualization, and global leadership.",
+    disciplines: [
+      "Missiology",
+      "Intercultural Studies",
+      "Global Christianity"
+    ],
+    programs: [
+      "Certificate",
+      "Associate Degree",
+      "Bachelor's",
+      "Master's"
+    ]
+  },
+
+  {
+    name: "Faculty of Christian Education",
+    icon: "fas fa-graduation-cap",
+    description:
+      "Committed to preparing spiritually mature and pedagogically competent leaders for discipleship, teaching ministries, curriculum development, and educational leadership.",
+    disciplines: [
+      "Christian Education",
+      "Religious Education",
+      "Educational Leadership"
+    ],
+    programs: [
+      "Bachelor's",
+      "Master's",
+      "Ph.D."
+    ]
+  }
+];
 
   return (
     <section id="faculties" className="py-16 px-6 bg-gray-50">
@@ -107,15 +166,15 @@ const Faculties = () => {
                 <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <i className="fas fa-users text-white text-xl"></i>
                 </div>
-                <h4 className="font-bold text-gray-800 mb-2">Expert Faculty</h4>
+                <h4 className="font-bold text-gray-800 mb-2"> Faculty</h4>
                 <p className="text-gray-600 text-sm">Learn from experienced theologians and ministry professionals</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-600 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <i className="fas fa-certificate text-white text-xl"></i>
                 </div>
-                <h4 className="font-bold text-gray-800 mb-2">Accredited Programs</h4>
-                <p className="text-gray-600 text-sm">All programs meet international theological education standards</p>
+                <h4 className="font-bold text-gray-800 mb-2">Curriculum</h4>
+                <p className="text-gray-600 text-sm">Curriculum is in line with international standards</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-xl flex items-center justify-center mx-auto mb-4">
