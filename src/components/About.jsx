@@ -51,7 +51,7 @@ const About = () => {
           <p className="max-w-3xl mx-auto text-lg text-gray-600">
             Providing accessible, Christ-centered theological education
             through on-campus, correspondence, and distance learning
-            programs designed to equip leaders for ministry and service.
+            programs designed to equip leaders for service in ministry.
           </p>
         </div>
 

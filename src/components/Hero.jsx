@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  
+
   // Replace these with your actual image URLs
   const slides = [
-    'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200',
-    'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1200',
-    'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=1200',
-    'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200'
+    "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200",
+    "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1200",
+    "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=1200",
+    "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200",
   ];
 
   useEffect(() => {
@@ -21,9 +21,9 @@ const Hero = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ 
-        behavior: 'smooth',
-        block: 'start'
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
       });
     }
   };
@@ -36,7 +36,7 @@ const Hero = () => {
           <div
             key={index}
             className={`absolute inset-0 transition-opacity duration-1000 ${
-              index === currentSlide ? 'opacity-100' : 'opacity-0'
+              index === currentSlide ? "opacity-100" : "opacity-0"
             }`}
           >
             <img
@@ -57,28 +57,29 @@ const Hero = () => {
           <div className="text-lg md:text-xl font-medium mb-4 text-yellow-300 uppercase tracking-wider animate-fade-in">
             Truth for All
           </div>
-          
+
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Transform Your Ministry Through 
+            Transform Your Ministry Through
             <span className="text-yellow-300"> Biblical Education</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Affordable Theological training and distance learning programs in Biblical and Theological Studies
+            Learn, grow, and serve with flexible online and onsite programs
+            designed for future Christian leaders.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <button 
-              onClick={() => scrollToSection('admission')}
+            <button
+              onClick={() => scrollToSection("admission")}
               className="bg-white text-blue-700 px-8 py-3 rounded-full font-bold text-lg hover:bg-yellow-300 hover:text-blue-800 transition-all duration-300 hover:scale-105 shadow-lg"
             >
               Apply Now
             </button>
-            <button 
-              onClick={() => scrollToSection('programs')}
+            <button
+              onClick={() => scrollToSection("programs")}
               className="border-2 border-white text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-white hover:text-blue-700 transition-all duration-300 hover:scale-105 shadow-lg"
             >
               View Programs
@@ -94,9 +95,9 @@ const Hero = () => {
             key={index}
             onClick={() => setCurrentSlide(index)}
             className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              index === currentSlide 
-                ? 'bg-yellow-300 w-8' 
-                : 'bg-white/50 hover:bg-white/75'
+              index === currentSlide
+                ? "bg-yellow-300 w-8"
+                : "bg-white/50 hover:bg-white/75"
             }`}
             aria-label={`Go to slide ${index + 1}`}
           />

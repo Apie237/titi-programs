@@ -7,7 +7,7 @@ const Admissions = () => {
     {
       icon: '🚪',
       title: 'Open Admission',
-      description: 'Admissions are open to EVERYONE WHO IS READY TO STUDY Biblical and/or Theological Studies.',
+      description: 'Admissions are open to anyone desiring Theological education for ministry and/or personal use',
       highlight: true
     },
     {
@@ -19,7 +19,7 @@ const Admissions = () => {
     {
       icon: '🎓',
       title: 'Travel Assistance',
-      description: 'Travel opportunities for education, work, and specific arrangements through our affiliates.',
+      description: 'Travel opportunities for further studies, ministry work via special arrangements',
       highlight: false
     }
   ];
@@ -131,7 +131,7 @@ const Admissions = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Join thousands of students worldwide in advancing their theological education. Our admission process is designed to be simple and accessible to everyone.
+            Join other students in advancing their theological education. Our admission process is designed to be simple and accessible to everyone.
           </p>
         </div>
 
@@ -338,29 +338,47 @@ const Admissions = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="mt-16 text-center">
-          <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 md:p-12">
-            <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
-              Ready to Start Your Journey?
-            </h3>
-            <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-              Don't wait! Begin your theological education today with our simple admission process.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a 
-                href="tel:+237671630408"
-                className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 flex items-center gap-3"
-              >
-                <span>📞</span>
-                Call Now: (+237) 671630408
-              </a>
-              <div className="text-sm text-gray-600">
-                <p>Or request application materials via phone</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        {/* Contact Buttons */}
+<div className="flex flex-col lg:flex-row gap-4 justify-center items-center">
+
+  {/* Call */}
+  <a
+    href="tel:+237671630408"
+    className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 flex items-center gap-3"
+  >
+    📞 Call: (+237) 671 630 408
+  </a>
+
+  {/* WhatsApp Cameroon */}
+  <a
+    href="https://wa.me/237640897191"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-gradient-to-r from-green-500 to-green-700 text-white px-8 py-4 rounded-full font-bold text-lg hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 flex items-center gap-3"
+  >
+    💬 WhatsApp: (+237) 640 897 191
+  </a>
+
+  {/* WhatsApp UAE */}
+  <a
+    href="https://wa.me/971557398354"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-gradient-to-r from-green-500 to-emerald-700 text-white px-8 py-4 rounded-full font-bold text-lg hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 flex items-center gap-3"
+  >
+    💬 WhatsApp: (+971) 55 739 8354
+  </a>
+
+</div>
+
+<div className="mt-6 text-gray-600">
+  <p className="font-medium text-lg">
+    Contact Us Now
+  </p>
+  <p className="text-sm">
+    Reach our admissions team by phone or WhatsApp for information about admissions, programs, tuition, and study options.
+  </p>
+</div>
       </div>
     </section>
   );

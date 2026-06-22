@@ -11,24 +11,24 @@ const Programs = () => {
       programs: [
         {
           title: "Certificate in Theology & Ministry",
-          duration: "9 Months",
-          credits: "30–36 Credits",
+          duration: "1 Year",
+          semesters: "3 Semesters",
           icon: "📜",
           pdf: "/pdfs/certificate.pdf",
         },
         {
           title: "Associate Degree in Theology & Ministry",
-          duration: "18 Months",
-          credits: "60–66 Credits",
+          duration: "2 Years",
+          semesters: "6 Semesters",
           icon: "🎓",
           pdf: "/pdfs/associate-degree.pdf",
         },
         {
           title: "Bachelor's Degree Programs",
-          duration: "3 Years",
-          credits: "120 Credits",
-          icon: "🏛️",
-          pdf: "/pdfs/bachelors.pdf",
+          duration: "3 – 4 Years",
+          semesters: "9 – 12 Semesters",
+          icon: "🏆",
+          pdf: "/pdfs/bachelors-degree.pdf",
         },
       ],
     },
@@ -39,25 +39,25 @@ const Programs = () => {
       color: "from-blue-500 to-indigo-600",
       programs: [
         {
-          title: "Post Graduate Certificate",
-          duration: "9 Months",
-          credits: "60–80 Credits",
+          title: "Postgraduate Certificate Programs",
+          duration: "6 Months – 1 Year",
+          semesters: "2 – 3 Semesters",
           icon: "📘",
           pdf: "/pdfs/postgraduate-certificate.pdf",
         },
         {
-          title: "Post Graduate Diploma",
-          duration: "12–18 Months",
-          credits: "60–100 Credits",
+          title: "Postgraduate Diploma Programs",
+          duration: "1 – 2 Years",
+          semesters: "3 – 6 Semesters",
           icon: "📗",
           pdf: "/pdfs/postgraduate-diploma.pdf",
         },
         {
           title: "Master's Degree Programs",
-          duration: "18–24 Months",
-          credits: "54–66 Credits",
+          duration: "1.5 – 2 Years",
+          semesters: "4 – 6 Semesters",
           icon: "🎖️",
-          pdf: "/pdfs/masters.pdf",
+          pdf: "/pdfs/masters-degree.pdf",
         },
       ],
     },
@@ -69,10 +69,10 @@ const Programs = () => {
       programs: [
         {
           title: "Doctor of Philosophy (Ph.D.)",
-          duration: "3–5 Years",
-          credits: "Research Based",
+          duration: "3 – 5 Years",
+          semesters: "6 – 12 Semesters",
           icon: "👨‍🎓",
-          pdf: "/pdfs/phd.pdf",
+          pdf: "/pdfs/doctoral-degree.pdf",
         },
       ],
     },
@@ -97,7 +97,6 @@ const Programs = () => {
       className="py-20 px-6 bg-gradient-to-b from-gray-50 to-white"
     >
       <div className="max-w-7xl mx-auto">
-
         {/* Header */}
         <div className="text-center mb-20">
           <span className="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -109,52 +108,40 @@ const Programs = () => {
           </h2>
 
           <p className="max-w-3xl mx-auto text-lg text-gray-600">
-            Our programs are structured into three academic cycles designed
+            Our programs are organized into three academic cycles designed
             to equip students with biblical knowledge, theological depth,
             practical ministry skills, and advanced research competence.
           </p>
         </div>
 
-        {/* Stats Section */}
-        <div className="grid md:grid-cols-4 gap-6 mb-20">
-          <div className="bg-white p-6 rounded-2xl shadow-sm border">
+        {/* Stats */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20">
+          <div className="bg-white p-6 rounded-2xl shadow-sm border text-center">
             <h3 className="text-4xl font-bold text-blue-600">3</h3>
             <p className="text-gray-600 mt-2">Academic Cycles</p>
           </div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-sm border">
-            <h3 className="text-4xl font-bold text-green-600">7+</h3>
-            <p className="text-gray-600 mt-2">Programs</p>
+          <div className="bg-white p-6 rounded-2xl shadow-sm border text-center">
+            <h3 className="text-4xl font-bold text-green-600">7</h3>
+            <p className="text-gray-600 mt-2">Academic Programs</p>
           </div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-sm border">
-            <h3 className="text-4xl font-bold text-purple-600">120</h3>
-            <p className="text-gray-600 mt-2">Bachelor Credits</p>
-          </div>
-
-          <div className="bg-white p-6 rounded-2xl shadow-sm border">
-            <h3 className="text-4xl font-bold text-red-600">100%</h3>
-            <p className="text-gray-600 mt-2">Flexible Learning</p>
+          <div className="bg-white p-6 rounded-2xl shadow-sm border text-center">
+            <h3 className="text-4xl font-bold text-purple-600">100%</h3>
+            <p className="text-gray-600 mt-2">Flexible Learning Options</p>
           </div>
         </div>
 
-        {/* Cycles */}
+        {/* Academic Cycles */}
         {cycles.map((cycle, cycleIndex) => (
           <div key={cycleIndex} className="mb-20">
-            {/* Cycle Header */}
             <div
               className={`bg-gradient-to-r ${cycle.color} rounded-3xl p-8 text-white mb-10`}
             >
-              <h3 className="text-3xl font-bold mb-2">
-                {cycle.title}
-              </h3>
-
-              <p className="text-white/90 text-lg">
-                {cycle.subtitle}
-              </p>
+              <h3 className="text-3xl font-bold mb-2">{cycle.title}</h3>
+              <p className="text-white/90 text-lg">{cycle.subtitle}</p>
             </div>
 
-            {/* Programs Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {cycle.programs.map((program, index) => (
                 <div
@@ -165,9 +152,7 @@ const Programs = () => {
                   <div
                     className={`bg-gradient-to-r ${cycle.color} p-6 text-white`}
                   >
-                    <div className="text-5xl mb-4">
-                      {program.icon}
-                    </div>
+                    <div className="text-5xl mb-4">{program.icon}</div>
 
                     <h4 className="text-xl font-bold">
                       {program.title}
@@ -176,7 +161,6 @@ const Programs = () => {
 
                   {/* Card Body */}
                   <div className="p-6">
-
                     <div className="space-y-4 mb-6">
                       <div className="flex justify-between">
                         <span className="font-medium text-gray-500">
@@ -190,16 +174,16 @@ const Programs = () => {
 
                       <div className="flex justify-between">
                         <span className="font-medium text-gray-500">
-                          Credits
+                          Semesters
                         </span>
 
                         <span className="font-semibold text-gray-800">
-                          {program.credits}
+                          {program.semesters}
                         </span>
                       </div>
                     </div>
 
-                    {/* Actions */}
+                    {/* Buttons */}
                     <div className="flex gap-3">
                       <button
                         onClick={() => openPreview(program.pdf)}
@@ -225,12 +209,10 @@ const Programs = () => {
         {/* PDF Preview Modal */}
         {selectedPdf && (
           <div className="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-
             <div className="bg-white rounded-3xl w-full max-w-6xl h-[90vh] overflow-hidden relative">
-
-              {/* Top Bar */}
-              <div className="flex justify-between items-center p-4 border-b bg-white">
-                <h3 className="font-bold text-lg">
+              {/* Header */}
+              <div className="flex justify-between items-center p-5 border-b">
+                <h3 className="font-bold text-xl">
                   Program Curriculum Preview
                 </h3>
 
@@ -242,14 +224,29 @@ const Programs = () => {
                 </button>
               </div>
 
-              {/* PDF Viewer */}
-              <iframe
-                src={selectedPdf}
-                title="PDF Preview"
+              {/* PDF Preview */}
+              <object
+                data={selectedPdf}
+                type="application/pdf"
                 className="w-full h-[calc(100%-80px)]"
-              />
+              >
+                <div className="p-8 text-center">
+                  <p className="mb-4 text-gray-700">
+                    PDF preview is not available in your browser.
+                  </p>
 
-              {/* Download Floating Button */}
+                  <a
+                    href={selectedPdf}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl"
+                  >
+                    Open PDF
+                  </a>
+                </div>
+              </object>
+
+              {/* Floating Download Button */}
               <div className="absolute bottom-6 right-6">
                 <button
                   onClick={() => downloadPdf(selectedPdf)}
@@ -258,9 +255,7 @@ const Programs = () => {
                   Download PDF
                 </button>
               </div>
-
             </div>
-
           </div>
         )}
       </div>
@@ -269,4 +264,3 @@ const Programs = () => {
 };
 
 export default Programs;
-

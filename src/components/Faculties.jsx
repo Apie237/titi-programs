@@ -105,7 +105,7 @@ const Faculties = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full"></div>
           <p className="text-lg text-gray-600 mt-6 max-w-2xl mx-auto">
-            Choose from 5 specialized faculties designed to equip you for effective ministry, leadership, and service.
+            Choose from 5 specialized faculties designed to equip you for effective ministry, leadership, and service in the kingdom of God
           </p>
         </div>
 
