@@ -19,7 +19,7 @@ const About = () => {
       icon: assets.laptop,
       title: "Flexible Learning",
       description:
-        "Chose either on-site or distance learning or correspance to fit your schedule.",
+        "Chose either on-site, distance learning or correspondance studies to fit your schedule.",
     },
     {
       icon: assets.airplane,
@@ -51,7 +51,7 @@ const About = () => {
           <p className="max-w-3xl mx-auto text-lg text-gray-600">
             Providing accessible, Christ-centered theological education
             through on-campus, correspondence, and distance learning
-            programs designed to equip leaders for service in ministry.
+            programs, designed to equip leaders for service in ministry.
           </p>
         </div>
 
@@ -114,7 +114,7 @@ const About = () => {
               <p className="text-lg text-gray-700">
                 Our flexible study options allow students from around the
                 world to pursue biblical and theological education while
-                balancing ministry, work, and family responsibilities.
+                balancing ministry, work, family and other responsibilities.
               </p>
             </div>
 

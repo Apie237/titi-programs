@@ -60,14 +60,13 @@ const Hero = () => {
 
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Transform Your Ministry Through
-            <span className="text-yellow-300"> Biblical Education</span>
+            Transform Your Ministry 
+            <span className="text-yellow-300">Through Theological Education</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Learn, grow, and serve with flexible online and onsite programs
-            designed for future Christian leaders.
+            Learn, grow, and serve with flexible online and onsite programs.
           </p>
 
           {/* CTA Buttons */}

@@ -7,7 +7,7 @@ const Admissions = () => {
     {
       icon: '🚪',
       title: 'Open Admission',
-      description: 'Admissions are open to anyone desiring Theological education for ministry and/or personal use',
+      description: 'Admissions are open to anyone desiring Theological education for ministry and/or personal purposes',
       highlight: true
     },
     {
@@ -98,7 +98,7 @@ const Admissions = () => {
   const faqs = [
     {
       question: 'Do I need previous theological education?',
-      answer: 'No! Our programs are open to everyone ready to study. We offer programs from beginner Certificate level to advanced Ph.D.'
+      answer: 'No! Our programs are open to everyone ready to study. We offer programs from beginner Certificate level to Ph.D.'
     },
     {
       question: 'Can I transfer credits from other institutions?',
@@ -118,7 +118,7 @@ const Admissions = () => {
     { id: 'requirements', label: 'Requirements', icon: '📋' },
     { id: 'process', label: 'Application Process', icon: '🔄' },
     { id: 'options', label: 'Study Options', icon: '📚' },
-    { id: 'faq', label: 'FAQ', icon: '❓' }
+    { id: 'faq', label: 'FAQs', icon: '❓' }
   ];
 
   return (
@@ -131,7 +131,7 @@ const Admissions = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Join other students in advancing their theological education. Our admission process is designed to be simple and accessible to everyone.
+            Join other students and advance in theological education. Our admission process is designed to be simple and accessible to everyone.
           </p>
         </div>
 
@@ -346,7 +346,7 @@ const Admissions = () => {
     href="tel:+237671630408"
     className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 flex items-center gap-3"
   >
-    📞 Call: (+237) 671 630 408
+    📞 Call/WhatsApp: (+237) 671 630 408
   </a>
 
   {/* WhatsApp Cameroon */}
@@ -376,7 +376,7 @@ const Admissions = () => {
     Contact Us Now
   </p>
   <p className="text-sm">
-    Reach our admissions team by phone or WhatsApp for information about admissions, programs, tuition, and study options.
+    Reach our admissions team by phone or WhatsApp for information about admissions, programs, tuition, study options and more.
   </p>
 </div>
       </div>

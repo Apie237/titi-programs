@@ -479,7 +479,7 @@ const Contact = () => {
                   <MessageCircle className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="font-bold text-white mb-1">WhatsApp (CM)</h4>
-                <p className="text-green-100">(+237) 640 897 191</p>
+                <p className="text-green-100">(+237) 671 630 408</p>
               </a>
 
               {/* WhatsApp UAE */}

@@ -174,7 +174,7 @@ const Faculties = () => {
                   <i className="fas fa-certificate text-white text-xl"></i>
                 </div>
                 <h4 className="font-bold text-gray-800 mb-2">Curriculum</h4>
-                <p className="text-gray-600 text-sm">Curriculum is in line with international standards</p>
+                <p className="text-gray-600 text-sm">Curriculum is in line with international institutions</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-xl flex items-center justify-center mx-auto mb-4">
